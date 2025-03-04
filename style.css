@@ -32,7 +32,7 @@ p{
 button[data-testid="baseButton-secondary"] {
     font-family: 'Open Sans', sans-serif;
     width: 100%;
-    height: 200px; /* Adjust height as needed */
+    height: 400px; /* Adjust height as needed */
     text-align: left;
     font-size: 16px; /* Adjust font size as needed */
     padding-left: 20px; /* Add padding to align text to the left */
