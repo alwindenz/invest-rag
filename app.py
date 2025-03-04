@@ -30,12 +30,13 @@ if selected == 'Chat Now':
 
     if len(st.session_state.chat_history) == 0:
         with _placeholder.container():
-            st.markdown("<br>"*2, unsafe_allow_html=True)
+            st.markdown("<br>"*4, unsafe_allow_html=True)
             c1, c2 = st.columns((0.90, 0.10))
             with c1:
                 st.header('Hello!')
                 st.header('How can I help you?')
 
+            st.markdown("<br>"*1, unsafe_allow_html=True)
             c4, c5, c6, c7 = st.columns(4)
             with c4:
                 q1 = "Any good news about Philippine companies lately?"
@@ -43,7 +44,7 @@ if selected == 'Chat Now':
                     user_input = q1
 
             with c5:
-                q2 = "With the recent news, are there any bad moves done by company that may affect beginner investors like me?"
+                q2 = "Recent company mistakes affecting new investors?"
                 if st.button(q2):
                     user_input = q2
 
