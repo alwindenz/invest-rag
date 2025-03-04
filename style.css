@@ -1,0 +1,61 @@
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+/* Apply the Open Sans font to the body or specific elements */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#hello {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700; 
+    font-size: 60px; 
+    color: #ea4444;
+}
+
+#how-can-i-help-you {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    color: #c4c7c5; 
+    font-size: 48px;
+    line-height: 0;
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.4;
+}
+
+/* Style for Streamlit buttons */
+button[data-testid="baseButton-secondary"] {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 200px; /* Adjust height as needed */
+    text-align: left;
+    font-size: 16px; /* Adjust font size as needed */
+    padding-left: 20px; /* Add padding to align text to the left */
+    padding-top: 15px;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start; /* Align text to the left */
+    background-color: #FDEDEC;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    
+}
+
+/* style.css */
+textarea[data-testid="stChatInputTextArea"] {
+    height: 55px !important; 
+    font-size: 16px !important; 
+}
+
+button[data-testid="stChatInputSubmitButton"] {
+    height: 50px !important;  /* Adjust the button height */
+    width: 50px !important;   /* Adjust the button width */
+    padding: 10px !important; /* Add padding */
+    border-radius: 5px !important; /* Optional: Rounded corners */
+}
